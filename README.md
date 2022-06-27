@@ -54,10 +54,9 @@ git clone https://github.com/cyrilmuchemi/Math-Magicians.git.
 
 1. Generate a full static production build
 
-   ```sh
    npm run build
-
-
+   
+   
 ## Authors
 
 👤 **Author1**
