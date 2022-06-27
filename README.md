@@ -26,8 +26,36 @@ To get a local copy up and running follow these simple example steps.
 - Working internet connection
 
 ### Setup
-- Click on code and copy the SSH key
-- Run git clone "SSH key"
+-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+
+[Download the ZIP from this location](https://github.com/cyrilmuchemi/Math-Magicians/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+
+```bash
+git clone https://github.com/cyrilmuchemi/Math-Magicians.git. 
+
+- Once the files are on your machine, open the _Math-Magicians_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
+
+## 🛠 Installation & Set Up
+
+1. Install Node Modules
+
+   ```sh
+   npm install
+
+2. Start the development server
+
+   ```sh
+   npm start
+
+3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
+## 🚀 Building and Running for Production
+
+1. Generate a full static production build
+
+   ```sh
+   npm run build
 
 
 ## Authors
