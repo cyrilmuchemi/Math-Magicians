@@ -22,18 +22,21 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+
 - VS code/ Sublime text or any other editor
 - Working internet connection
 
 ### Setup
+
 -If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
 
-[Download the ZIP from this location](https://github.com/cyrilmuchemi/Math-Magicians/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+-[Download the ZIP from this location](https://github.com/cyrilmuchemi/Math-Magicians/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
 
-```bash
+-```bash
 git clone https://github.com/cyrilmuchemi/Math-Magicians.git. 
 
 - Once the files are on your machine, open the _Math-Magicians_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
+
 
 ## 🛠 Installation & Set Up
 
@@ -53,7 +56,6 @@ git clone https://github.com/cyrilmuchemi/Math-Magicians.git.
 ## 🚀 Building and Running for Production
 
 1. Generate a full static production build
-
    npm run build
    
    
