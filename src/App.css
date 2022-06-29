@@ -11,10 +11,10 @@
 
 .display {
   background-color: gray;
+  align-self: center;
   height: 44px;
   font-size: 36px;
   width: 400px;
-  margin-left: 447px;
 }
 
 span {
