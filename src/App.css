@@ -1,3 +1,40 @@
 .App {
   text-align: center;
 }
+
+.Calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.display {
+  background-color: gray;
+  height: 44px;
+  font-size: 36px;
+  width: 400px;
+  margin-left: 447px;
+}
+
+span {
+  color: #fff;
+  font-size: 26px;
+  margin-left: 350px;
+}
+
+button {
+  width: 100px;
+  height: 60px;
+  font-size: 16px;
+  color: black;
+  background-color: rgb(239, 234, 234);
+}
+
+.wide-button {
+  width: 200px;
+}
+
+.orange {
+  background-color: rgba(242, 123, 80, 0.819);
+}
