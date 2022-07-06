@@ -1,17 +1,30 @@
 .App {
-  text-align: center;
+  display: flex;
+  position: relative;
 }
 
 .Calculator {
   display: flex;
+  margin-top: 200px;
   flex-direction: column;
+  padding-left: 200px;
+  margin-left: 150px;
   justify-content: center;
   width: 100%;
 }
 
+h1 {
+  padding-left: 60px;
+}
+
+h2 {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: -200px;
+}
+
 .display {
   background-color: gray;
-  align-self: center;
   height: 44px;
   font-size: 36px;
   width: 400px;
@@ -36,4 +49,55 @@ button {
 
 .orange {
   background-color: rgba(242, 123, 80, 0.819);
+}
+
+.Navigation {
+  display: flex;
+  position: absolute;
+  right: 70px;
+  margin-top: 12px;
+}
+
+ul {
+  display: inherit;
+  list-style: none;
+  cursor: pointer;
+  text-decoration: underline;
+  gap: 40px;
+}
+
+li:hover {
+  color: blue;
+}
+
+hr {
+  color: #181818;
+  background-color: #0e0d0d;
+  height: 18px;
+  margin-top: -1px;
+  border-color: #292727;
+}
+
+.Lorem-ipsum {
+  position: absolute;
+  margin-top: 220px;
+  gap: 50px;
+  width: 800px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.math-quote {
+  position: absolute;
+  margin-top: 200px;
+  width: 700px;
+}
+
+.math-speaker {
+  font-weight: bold;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
 }

@@ -18,6 +18,9 @@ export const Calculator = () => {
 
   return (
     <div>
+      <div>
+        <h2>Lets do some math</h2>
+      </div>
       <div className="Calculator">
         <div className="display">
           <span>{total}</span>
